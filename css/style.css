@@ -1,0 +1,167 @@
+body{
+	background-color: #252525;
+	color: #ccc;
+	font-size: 14px;
+	font-family: "Catamaran", sans-serif;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+
+#hero-slides{
+	background-size: cover;
+}
+
+.overlay{
+	position: absolute;
+	left: 12%;
+	text-align: left;
+	font-weight: 500;
+	color: #FFF;
+	margin-top: 178px;
+}
+
+.tipo-boton{
+	display: inline-block;
+	border: solid thin #fff;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.tipo-boton-producto{
+	display: inline-block;
+	border: solid thin #fff;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	align-content: center;
+}
+
+.button{
+	background-color: #ec3642;
+	display: inline-block;
+	border: solid thin #;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+	
+}
+
+h1{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	
+}
+
+#intro{
+	margin-top: 50px;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+#intro h6{
+	text-transform: uppercase;
+	font-weight: 500px;
+}
+
+#intro h4{
+	text-transform: uppercase;
+	font-weight: 500px;
+}
+
+.columna{
+	display: inline-block;
+	background-color: #212121;
+	padding: 10px;
+}
+
+.izquierda{
+	padding: 5px;
+}
+
+.derecha{
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+#new{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#products{
+	align-content: center;
+	margin-bottom: 25px;
+}
+
+#products .row{
+	text-align: center;
+}
+
+.productos{
+	display: inline-block;
+}
+
+.descripcion{
+	background-color: #161616;
+	display: inline-block;
+	padding-right: 65px;
+	color: #fff;
+}
+
+.descripcion h6{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.precio p{
+	color: #ec3642;
+}
+
+.sin-precio p{
+	text-decoration: line-through;
+}
+
+.producto-1{
+	margin-bottom: 20px;
+}
+
+#cta{
+	margin-top: 70px;
+	background-image: url("../img/bg-parallax.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 200px;
+	padding-left: 150px;
+	padding-top: 80px
+	
+}
+
+#cta .tipo-boton{
+	margin-top: 25px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
